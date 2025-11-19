@@ -1,0 +1,23 @@
+{
+  "name": "ai-chat-worker",
+  "version": "1.0.0",
+  "description": "Cloudflare Workers项目 - 通过GraphQL请求OpenAI实现AI聊天助手",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "keywords": [
+    "cloudflare-workers",
+    "graphql",
+    "openai",
+    "ai-chat",
+    "chatbot"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
