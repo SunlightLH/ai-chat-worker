@@ -1,0 +1,12 @@
+name = "ai-chat-worker"
+main = "src/index.js"
+compatibility_date = "2024-11-19"
+compatibility_flags = ["nodejs_compat"]
+
+# 环境变量配置
+# 在部署前需要设置: wrangler secret put OPENAI_API_KEY
+# [vars]
+# OPENAI_API_KEY = "your-api-key-here"
+
+# Workers 设置
+workers_dev = true
